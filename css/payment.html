@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/8fc0383455.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h4> Select a <span style="color: #6064b6">Payment</span> method</h4>
+        </div>
+        <form action="#">
+            <input type="radio" name="payment" id="paypal">
+            <input type="radio" name="payment" id="skrill">
+            <input type="radio" name="payment" id="crypto">
+
+            <div class="category">
+                <label for="paypal">
+                    <div class="imgName">
+                        <div class="imgContainer">
+                            <img src="images/log.jpg" 
+                            alt="">
+                        </div>
+                        <span class="name">Paypal</span>
+                    </div>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                </label>
+                <label for="skrill"></label>
+                <label for="crypto"></label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
